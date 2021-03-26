@@ -1,0 +1,364 @@
+.pasport {
+
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 44px;
+        /* identical to box height */
+        margin: 30px 0 0 0;
+        text-align: center;
+        /* were */
+
+        color: #122B3A;
+    }
+
+    p {
+       font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 50px;
+        /* or 139% */
+
+        text-align: center;
+
+        /* were */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #122B3A;
+    }
+
+    .tabs .tab a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 26px;
+        line-height: 42px;
+        font-weight: 600;
+        /* were */
+        padding: -15px;
+        color: #122B3A;
+        opacity: 0.5;
+
+    }
+
+    .tabs {
+        background-color: transparent !important;
+        margin-bottom: 40px;
+    }
+
+    .tabs .indicator {
+        background-color: #122B3A;
+    }
+
+    .tabs .tab a:hover {
+        color: #122B3A;
+    }
+
+    .tabs .tab a.active {
+        color: #122B3A;
+        opacity: 1;
+    }
+
+    .tabs .tab a:focus,
+    .tabs .tab a:focus.active {
+        background-color: transparent;
+
+    }
+
+    .images {
+        
+        img {
+            width: 100%;
+            height: 66.66666%;
+            margin: 10px;
+            border-radius: 10px;
+            &::after{
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    
+
+    .description {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        padding: 20px;
+        background: #F6FAFF;
+        border-radius: 12px;
+        margin-left: 17px;
+        margin-bottom: 20px;
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 42px;
+            /* identical to box height */
+            text-align: left;
+            /* were */
+            margin: 0%;
+            color: #122B3A;
+            width: 500px;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 42px;
+            /* identical to box height, or 117% */
+            text-align: right;
+
+            /* were */
+            margin: 0;
+            color: #122B3A;
+        }
+
+
+    }
+
+    .data_pasport {
+        margin-bottom: 0px !important;
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 44px;
+            /* identical to box height */
+            text-align: center;
+            margin-bottom: 0;
+            /* were */
+
+            color: #122B3A;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 42px;
+            /* or 117% */
+            margin-top: 0;
+            margin-bottom: 25px;
+            text-align: center;
+
+            /* were */
+
+            color: #122B3A;
+
+        }
+
+        .uchastka {
+            background: #F6FAFF;
+            border-radius: 12px;
+            width: 350px;
+            padding: 20px;
+            p {
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 42px;
+                /* or 117% */
+
+
+                /* were */
+                margin-bottom: 20px;
+                color: #122B3A;
+            }
+
+            span {
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 44px;
+                /* identical to box height */
+
+
+                /* were */
+
+                color: #122B3A;
+            }
+        }
+
+        .yer {
+            background: #F6FAFF;
+            border-radius: 12px;
+            margin-left: 30px;
+            padding: 20px;
+            p {
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 42px;
+                /* or 117% */
+                margin-bottom: 20px;
+
+                /* were */
+
+                color: #122B3A;
+            }
+
+            span {
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 44px;
+                /* identical to box height */
+
+
+                /* were */
+
+                color: #122B3A;
+            }
+        }
+
+        .komunals {
+            .col{
+                background: #F6FAFF;
+                border-radius: 12px;
+                padding: 20px;
+                width: 160px;
+                margin: 0 10px;
+            }
+            h1 {
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 42px;
+                margin-bottom: 26px;
+                margin-top: 0;
+
+                /* were */
+
+                color: #122B3A;
+            }
+
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 42px;
+                /* identical to box height, or 117% */
+                margin: 0px 0;
+                /* were */
+
+                color: #122B3A;
+            }
+
+            .image_group {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                :nth-child(1) {
+                    margin-right: 30px;
+                    position: absolute;
+                }
+                :nth-child(2){
+                    position: relative;
+                    top: -40px;
+                    left: 86px;
+                }
+            }
+        }
+
+    }
+
+    .location {
+        margin-top: 10px;
+        h4{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 44px;
+            /* identical to box height */
+            text-align: center;
+            margin: 0;
+            /* were */
+
+            color: #122B3A;
+        }
+        p {
+            text-align: center ;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 42px;
+            margin-bottom: 26px;
+            margin-left: 5px;
+            /* were */
+            margin-top: 0;
+            color: #122B3A;
+        }
+        iframe{
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 100px -20px;
+        }
+    }
+
+    .download,
+    .qr_code {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .download {
+        img {
+            margin-right: 64px;
+        }
+
+        p {
+           font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 42px;
+            &:hover{
+                color: #005B94;
+                transition:color 0.3s ease;
+            }
+            
+        }
+    }
+
+    .qr_code {
+        display: block;
+        
+        margin-top: 250px;
+        margin-left: 250px;
+
+        img {
+            width: 150px;
+            height: 150px;
+           
+            
+        }
+
+        
+    }
+}
+.lb-image{
+            width: 900px !important;
+            height: 500px !important;
+}

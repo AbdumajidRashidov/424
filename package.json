@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "lightbox2": "^2.11.3",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

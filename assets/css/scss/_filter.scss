@@ -1,0 +1,46 @@
+.filter {
+    .row {
+
+        .input-field input:focus {
+            border-bottom: none !important;
+            box-shadow: none !important;
+            color: #122B3A !important;
+        }
+
+        /* icon prefix focus color */
+        .input-field .prefix.active {
+            color: #122B3A !important;
+        }
+
+        .input-field input+label {
+            margin-left: 5px;
+            opacity: 1;
+            padding-left: 1px;
+
+        }
+
+        .input-field input {
+            background-color: white !important;
+            border-radius: 7px;
+            border-bottom: none !important;
+            box-shadow: none !important;
+        }
+
+        /* label focus color */
+        .input-field input:focus+label {
+            color: #122B3A !important;
+        }
+
+        .dropdown-content li>a,
+        .dropdown-content li>span {
+            color: #122b3a7e !important;
+        }
+
+        .select-wrapper input.select-dropdown {
+            color: #122b3a7e;
+            padding-left: 10px !important;
+            
+        }
+    }
+
+}

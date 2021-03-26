@@ -1,0 +1,507 @@
+@charset "UTF-8";
+.container {
+  max-width: 1336px !important;
+  margin: 0 auto !important;
+  width: 1336px !important;
+}
+
+body {
+  background-image: url(../../assets/img/1.png);
+  background-size: cover;
+}
+
+.section_searchInfo a {
+  color: #122B3A;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+.section_searchInfo .card {
+  background: #FFFFFF !important;
+  /* сфысы */
+  -webkit-box-shadow: 0px 4px 16px rgba(210, 220, 229, 0.5) !important;
+          box-shadow: 0px 4px 16px rgba(210, 220, 229, 0.5) !important;
+  border-radius: 8px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 24px;
+  margin-top: 40px;
+}
+.section_searchInfo .card p {
+  margin: 0;
+}
+.section_searchInfo .card span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: right;
+  /* were */
+  color: #122B3A;
+  opacity: 0.7;
+}
+.section_searchInfo .card span img {
+  margin-left: 30px;
+}
+
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .logo h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  /* were */
+  margin-left: 36px;
+  color: #122B3A;
+  width: 400px;
+}
+.header .search {
+  /* icon prefix focus color */
+  /* label focus color */
+}
+.header .search .search_input {
+  width: 50% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  margin-top: 60px;
+  background-color: transparent !important;
+  border-radius: 7px;
+}
+.header .search .input-field input[type=text]:focus {
+  border-bottom: 1px solid #122B3A;
+  -webkit-box-shadow: 0 1px 0 0 #122B3A;
+          box-shadow: 0 1px 0 0 #122B3A;
+  color: #122B3A;
+}
+.header .search .input-field .prefix.active {
+  color: #122B3A;
+}
+.header .search .input-field input[type=text]:focus + label {
+  color: #122B3A;
+}
+
+.filter .row {
+  /* icon prefix focus color */
+  /* label focus color */
+}
+.filter .row .input-field input:focus {
+  border-bottom: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  color: #122B3A !important;
+}
+.filter .row .input-field .prefix.active {
+  color: #122B3A !important;
+}
+.filter .row .input-field input + label {
+  margin-left: 5px;
+  opacity: 1;
+  padding-left: 1px;
+}
+.filter .row .input-field input {
+  background-color: white !important;
+  border-radius: 7px;
+  border-bottom: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+.filter .row .input-field input:focus + label {
+  color: #122B3A !important;
+}
+.filter .row .dropdown-content li > a,
+.filter .row .dropdown-content li > span {
+  color: #122b3a7e !important;
+}
+.filter .row .select-wrapper input.select-dropdown {
+  color: #122b3a7e;
+  padding-left: 10px !important;
+}
+
+.pasport h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+  margin: 30px 0 0 0;
+  text-align: center;
+  /* were */
+  color: #122B3A;
+}
+.pasport p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  /* or 139% */
+  text-align: center;
+  /* were */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #122B3A;
+}
+.pasport .tabs .tab a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  line-height: 42px;
+  font-weight: 600;
+  /* were */
+  padding: -15px;
+  color: #122B3A;
+  opacity: 0.5;
+}
+.pasport .tabs {
+  background-color: transparent !important;
+  margin-bottom: 40px;
+}
+.pasport .tabs .indicator {
+  background-color: #122B3A;
+}
+.pasport .tabs .tab a:hover {
+  color: #122B3A;
+}
+.pasport .tabs .tab a.active {
+  color: #122B3A;
+  opacity: 1;
+}
+.pasport .tabs .tab a:focus,
+.pasport .tabs .tab a:focus.active {
+  background-color: transparent;
+}
+.pasport .images img {
+  width: 100%;
+  height: 66.66666%;
+  margin: 10px;
+  border-radius: 10px;
+}
+.pasport .images img::after {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+.pasport .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 0px;
+  padding: 20px;
+  background: #F6FAFF;
+  border-radius: 12px;
+  margin-left: 17px;
+  margin-bottom: 20px;
+}
+.pasport .description h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+  text-align: left;
+  /* were */
+  margin: 0%;
+  color: #122B3A;
+  width: 500px;
+}
+.pasport .description p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 42px;
+  /* identical to box height, or 117% */
+  text-align: right;
+  /* were */
+  margin: 0;
+  color: #122B3A;
+}
+.pasport .data_pasport {
+  margin-bottom: 0px !important;
+}
+.pasport .data_pasport h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+  text-align: center;
+  margin-bottom: 0;
+  /* were */
+  color: #122B3A;
+}
+.pasport .data_pasport p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  /* or 117% */
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  /* were */
+  color: #122B3A;
+}
+.pasport .data_pasport .uchastka {
+  background: #F6FAFF;
+  border-radius: 12px;
+  width: 350px;
+  padding: 20px;
+}
+.pasport .data_pasport .uchastka p {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  /* or 117% */
+  /* were */
+  margin-bottom: 20px;
+  color: #122B3A;
+}
+.pasport .data_pasport .uchastka span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+  /* were */
+  color: #122B3A;
+}
+.pasport .data_pasport .yer {
+  background: #F6FAFF;
+  border-radius: 12px;
+  margin-left: 30px;
+  padding: 20px;
+}
+.pasport .data_pasport .yer p {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  /* or 117% */
+  margin-bottom: 20px;
+  /* were */
+  color: #122B3A;
+}
+.pasport .data_pasport .yer span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+  /* were */
+  color: #122B3A;
+}
+.pasport .data_pasport .komunals .col {
+  background: #F6FAFF;
+  border-radius: 12px;
+  padding: 20px;
+  width: 160px;
+  margin: 0 10px;
+}
+.pasport .data_pasport .komunals h1 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 26px;
+  margin-top: 0;
+  /* were */
+  color: #122B3A;
+}
+.pasport .data_pasport .komunals p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height, or 117% */
+  margin: 0px 0;
+  /* were */
+  color: #122B3A;
+}
+.pasport .data_pasport .komunals .image_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+.pasport .data_pasport .komunals .image_group :nth-child(1) {
+  margin-right: 30px;
+  position: absolute;
+}
+.pasport .data_pasport .komunals .image_group :nth-child(2) {
+  position: relative;
+  top: -40px;
+  left: 86px;
+}
+.pasport .location {
+  margin-top: 10px;
+}
+.pasport .location h4 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+  text-align: center;
+  margin: 0;
+  /* were */
+  color: #122B3A;
+}
+.pasport .location p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 26px;
+  margin-left: 5px;
+  /* were */
+  margin-top: 0;
+  color: #122B3A;
+}
+.pasport .location iframe {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 100px -20px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 100px -20px;
+}
+.pasport .download,
+.pasport .qr_code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.pasport .download img {
+  margin-right: 64px;
+}
+.pasport .download p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 42px;
+}
+.pasport .download p:hover {
+  color: #005B94;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.pasport .qr_code {
+  display: block;
+  margin-top: 250px;
+  margin-left: 250px;
+}
+.pasport .qr_code img {
+  width: 150px;
+  height: 150px;
+}
+
+.lb-image {
+  width: 900px !important;
+  height: 500px !important;
+}
+
+.card_login {
+  background: #FFFFFF !important;
+  border-radius: 12px !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px !important;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px !important;
+  width: 800px;
+  height: 408px;
+  margin: 100px auto !important;
+  padding: 20px 50px !important;
+  max-width: 810px !important;
+  text-align: center;
+}
+.card_login .input-field .prefix.active {
+  color: #122B3A !important;
+}
+.card_login .input-field input:focus + label {
+  color: #122B3A !important;
+}
+.card_login .input-field label {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  /* were */
+  color: #122B3A !important;
+  opacity: 0.7 !important;
+}
+.card_login .input-field input:focus {
+  border-bottom: 1px solid #122B3A !important;
+  -webkit-box-shadow: 0 1px 0 0 #122B3A !important;
+          box-shadow: 0 1px 0 0 #122B3A !important;
+}
+.card_login h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  /* were */
+  color: #122B3A;
+}
+
+.span424 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 48px;
+  /* were */
+  text-align: center;
+  color: #122B3A;
+  position: relative;
+  left: 47%;
+  opacity: 0.3;
+}/*# sourceMappingURL=main.css.map */
