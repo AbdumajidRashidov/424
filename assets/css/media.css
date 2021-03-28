@@ -1,0 +1,248 @@
+@media (max-width: 567px) {
+  .header .logo {
+    margin-top: 20px;
+  }
+  .header .logo img {
+    width: 60px;
+    height: 60px;
+  }
+  .header .logo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    margin: 0 0 0 16px;
+    color: #122B3A;
+    width: 250px;
+  }
+  .header .search .search_input {
+    width: 100% !important;
+    margin-top: 30px;
+  }
+  .pasport h1 {
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    margin: 0px 0 0 0;
+  }
+  .pasport p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .pasport .tabs .tab a {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    /* were */
+    padding: -15px;
+    margin: 0;
+  }
+  .pasport .tabs {
+    margin-bottom: 20px;
+  }
+  .pasport .description {
+    display: block;
+  }
+  .pasport .description h2 {
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .pasport .description p {
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 117% */
+    text-align: center;
+  }
+  .pasport .data_pasport {
+    margin-bottom: 0px !important;
+  }
+  .pasport .data_pasport h3 {
+    font-size: 22px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+  }
+  .pasport .data_pasport p {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .pasport .data_pasport .uchastka {
+    width: 100%;
+  }
+  .pasport .data_pasport .uchastka p {
+    text-align: left;
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .pasport .data_pasport .uchastka span {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .pasport .data_pasport .yer {
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .pasport .data_pasport .yer p {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .pasport .data_pasport .yer span {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .pasport .data_pasport .komunals .col {
+    padding: 20px;
+    width: 60%;
+    margin: 10px 20%;
+  }
+  .pasport .data_pasport .komunals h1 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .pasport .data_pasport .komunals p {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .pasport .location {
+    margin-top: 10px;
+  }
+  .pasport .location h4 {
+    font-size: 28px;
+    line-height: 44px;
+  }
+  .pasport .location p {
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 26px;
+    margin-left: 5px;
+    /* were */
+    margin-top: 0;
+    color: #122B3A;
+  }
+  .pasport .location iframe {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 100px -20px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 100px -20px;
+  }
+  .pasport .download,
+  .pasport .qr_code {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pasport .download {
+    margin-top: 15px;
+  }
+  .pasport .download img {
+    margin-right: 14px;
+    width: 50px;
+    height: 50px;
+  }
+  .pasport .download p {
+    text-align: left;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 0;
+  }
+  .pasport .qr_code {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+  .pasport .qr_code img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 30px;
+  }
+  .lb-image {
+    width: 300px !important;
+    height: 200px !important;
+  }
+  .section_searchInfo .card {
+    padding: 24px;
+    margin-top: 20px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section_searchInfo .card p {
+    margin-bottom: 20px;
+    font-size: 18px !important;
+  }
+  .section_searchInfo .card span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+    line-height: 28px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  .section_searchInfo .card span img {
+    margin-left: 10px;
+  }
+  .card_login {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px !important;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px !important;
+    width: 100%;
+    height: 60vh;
+    margin: 10px auto !important;
+    padding: 20px 50px !important;
+    max-width: 810px !important;
+    text-align: center;
+  }
+  .card_login .input-field label {
+    font-size: 18px !important;
+    line-height: 28px !important;
+  }
+  .card_login h1 {
+    font-size: 24px;
+    line-height: 22px;
+    margin: 10px 0;
+  }
+  .card_login button {
+    width: 50%;
+    margin-top: 0px;
+    background-color: #122B3A;
+    border-radius: 8px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .span424 {
+    font-size: 36px;
+    line-height: 48px;
+    /* were */
+    text-align: center;
+    color: #122B3A;
+    position: relative;
+    left: 47%;
+    opacity: 0.3;
+  }
+}
+/*# sourceMappingURL=media.css.map */

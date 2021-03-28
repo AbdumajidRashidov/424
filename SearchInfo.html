@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,7 +21,7 @@
         <div class="header">
             <div class="container">
                 <div class="row">
-                    <div class="col s6">
+                    <div class="col s12 m6">
                         <div class="logo">
                             <img src="./assets/img/Group 48.svg" alt="logo">
                             <h1>“Mahalla” xayriya
@@ -28,7 +29,7 @@
                             </h1>
                         </div>
                     </div>
-                    <div class="col s6">
+                    <div class="col s12 m6">
                         <div class="search">
                             <form>
 
@@ -48,11 +49,11 @@
         <section class="filter">
             <div class="container">
                 <div class="row">
-                    <div class="col s3 input-field">
-                        <input id="id_number" type="number" class="validate">
+                    <div class="col s6 m3 input-field">
+                        <input id="id_number" type="number" class="validate" style="padding-right: 0.75rem;">
                         <label for="id_number">ID рақам</label>
                     </div>
-                    <div class="input-field col s3">
+                    <div class="input-field col s6 m3">
                         <select>
                             <option value="" selected>Вилоят / шаҳар</option>
                             <option value="1">Option 1</option>
@@ -60,7 +61,7 @@
                             <option value="3">Option 3</option>
                         </select>
                     </div>
-                    <div class="input-field col s3">
+                    <div class="input-field col s6 m3">
                         <select>
                             <option value="" selected>Туман</option>
                             <option value="1">Option 1</option>
@@ -68,7 +69,7 @@
                             <option value="3">Option 3</option>
                         </select>
                     </div>
-                    <div class="input-field col s3">
+                    <div class="input-field col s6 m3">
                         <select>
                             <option value="" selected>Маҳалла</option>
                             <option value="1">Option 1</option>
@@ -164,8 +165,8 @@
     </main>
 
 
-
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
     <script src="./node_modules/materialize-css/dist/js/materialize.js"></script>
     <!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
     <script src="./assets/js/index.js"></script>

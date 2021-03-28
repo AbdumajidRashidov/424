@@ -1,0 +1,276 @@
+@media(max-width:567px){
+    //header
+.header {
+    .logo {
+        margin-top: 20px;
+        img{
+            width: 60px;
+            height: 60px;
+        }
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px ;
+            line-height: 28px;
+            font-weight: 600;
+            margin: 0 0 0 16px;
+            color: #122B3A;
+            width: 250px;
+        }
+    }
+
+    .search {
+        .search_input {
+            width: 100% !important;
+            margin-top: 30px;
+        }
+    }
+}
+//pasport
+.pasport {
+    h1 {
+        font-size: 22px;
+        line-height: 30px;
+        /* identical to box height */
+        margin: 0px 0 0 0;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .tabs .tab a {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 600;
+        /* were */
+        padding: -15px;
+        margin: 0;
+
+    }
+
+    .tabs {
+        margin-bottom: 20px;
+    }
+    .description {
+        display: block;
+        h2 {
+            
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height */
+            text-align: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height, or 117% */
+            text-align: center;
+        }
+
+
+    }
+
+    .data_pasport {
+        margin-bottom: 0px !important;
+
+        h3 {
+            font-size: 22px;
+            line-height: 24px;
+            /* identical to box height */
+            text-align: center;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 32px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .uchastka {
+            width: 100%;
+            p {
+                text-align: left;
+                font-size: 28px;
+                line-height: 42px;
+            }
+
+            span {
+                font-size: 32px;
+                line-height: 42px;
+            }
+        }
+
+        .yer {
+            margin-left: 0;
+            margin-top: 20px;
+            padding: 20px;
+            p {
+                font-size: 28px;
+                line-height: 42px;
+            }
+
+            span {
+                font-size: 32px;
+                line-height: 42px;
+            }
+        }
+
+        .komunals {
+            
+            .col{
+                padding: 20px;
+                width: 60%;
+                margin:  10px 20%;
+            }
+            h1 {
+                font-size: 22px;
+                line-height: 32px;
+                margin-top: 30px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 28px;
+                line-height: 42px;
+            }
+
+            
+        }
+
+    }
+
+    .location {
+        margin-top: 10px;
+        h4{
+            font-size: 28px;
+            line-height: 44px;
+        }
+        p {
+            
+            font-size: 24px;
+            line-height: 42px;
+            margin-bottom: 26px;
+            margin-left: 5px;
+            /* were */
+            margin-top: 0;
+            color: #122B3A;
+        }
+        iframe{
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 100px -20px;
+        }
+    }
+
+    .download,
+    .qr_code {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .download {
+        margin-top: 15px;
+        img {
+            margin-right: 14px;
+            width: 50px;
+            height: 50px;
+        }
+        p {
+            text-align: left;
+            font-size: 22px;
+            line-height: 22px;
+            margin-bottom: 0;
+            
+        }
+    }
+
+    .qr_code {
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        img {
+            width: 100px;
+            height: 100px;
+           position: absolute;
+            right: 30px;
+            
+        }
+
+        
+    }
+}
+.lb-image{
+            width: 300px !important;
+            height: 200px !important;
+}
+//searchinfo
+.section_searchInfo{
+    
+    .card{
+    padding: 24px;
+    margin-top: 20px ;
+    width: 100% ;
+    display: flex;
+    flex-direction: column ;
+    p{
+        margin-bottom: 20px;
+        font-size: 18px !important;
+    }
+    span{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 28px;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        img{
+            margin-left: 10px;
+        }
+    }
+}
+}
+//login
+.card_login{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px !important;
+    width: 100%;
+    height: 60vh;
+    margin: 10px auto !important;
+    padding: 20px 50px !important;
+    max-width: 810px !important;
+    text-align: center;
+     .input-field label{
+        font-size: 18px !important;
+        line-height: 28px !important;
+     }
+    h1{
+        font-size: 24px;
+        line-height: 22px;
+        margin: 10px 0;
+    }
+    button{
+        width: 50%;margin-top: 0px;background-color : #122B3A;border-radius: 8px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+.span424{
+    
+   
+    font-size: 36px;
+    line-height: 48px;
+
+    /* were */
+    text-align: center;
+    color: #122B3A;
+    position: relative;
+    left: 47%;
+    opacity: 0.3;
+}
+}
